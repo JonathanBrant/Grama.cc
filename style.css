@@ -44,38 +44,6 @@ table {
 	border-spacing: 0;
 }
 
-.index {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-}
-
-.btn-plataform2 {
-    height: 16rem;
-    width: 16rem;
-    border-radius: 50%;
-    background-color: black;
-    color: white;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: ease-in-out 1s;
-    border: none;
-    outline: none;
-
-}
-
-.btn-plataform2:hover {
-    background-color: rgba(0, 0, 0, 1);
-}
-
-.btn-plataform2:last-child {
-    background-image: url(images/button.png);
-    margin-left: 14rem;
-}
 
 body {
     position: relative;
@@ -215,14 +183,10 @@ header {
 
 .image3 {
     margin-right: 7.938rem;
-    height: 16rem;
-    width: 16rem;
     margin-top: -32rem;
 }
 
 .image4 {
-    height: 27rem;
-    width: 22rem;
     margin-top: -10rem;
 }  
 
@@ -253,6 +217,10 @@ header {
 
 }
 
+.text-content3 {
+    width: 100%;
+}
+
 .text-content3 p {
     height: 14rem;
     width: 40rem ;
@@ -270,8 +238,8 @@ header {
 
 .content3 img {
     border-radius: 1rem;
-    width: 45.938rem;
-    height: 44.313rem;
+
+
 }
 
 .content4 {
@@ -333,23 +301,191 @@ footer {
     align-items: center;
 }
 
-@media (max-width: 1024px) {
-    
-    .image2 {
-    height: 31rem;
-    width: 45.938rem;
-    border-radius: 5%;
+@media (max-width: 1200px) {
+    .top {
+        margin-top: -5rem !important;
+        height: 100vh;
+    }
+
+    .description {
+        height: 50vh;
+    }
+
+    .description .p1, .p2, .p3{
+        padding-top: 10% !important;
+
+    }
+
+    .description .p3 {
+        padding-left: 0;
+    }
+
+    .text-content2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -21.5rem;
+        margin-bottom: 14rem;
+        color: white;
+    }
+
+    .text-content3 {
+        height: 50vh;
     }
 
     .title {
+        font-size: 3rem !important;       
+    }       
 
-        font-size: 75% !important;
-        
+    .content {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    .image3 {
+        margin-top: 0;
+    }
+    .image4 {
+        margin-top: 0;
+        width: 16rem !important;
+        height: 16rem !important;
+    }
+
+
+    .text-content3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-content3 p {
+        margin-left: 0;
+    }
+
+    .content4 {
+        height: 75vh;
+    }
+
+    footer {
+        font-size: 75%;
+    }
+
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 973px) {
     .title {
-        font-size: 12px !important;
+        font-size: 2rem !important;
+    }
+    .description {
+        height: 50vh;
+    }
+
+    .description .p1, .p2, .p3{
+        padding-top: 8% !important;
+        font-size: 75% !important;
+    }
+
+    .image2 img {
+        width: 75%;
+
+    }
+
+    .image3 img {
+        width: 75%;
+    }
+
+    .image4 img {
+        width: 75%;
+        height: 50%;
+    }
+
+
+    .image5 {
+        width: 75%;
+        height: 75vh;
+    }
+
+    .image6 {
+        width: 75%;
+        height: 75vh;
+    }
+    
+    .text-content3 {
+        height: 35vh
+    }
+
+    .text-content3 p {
+
+        font-size: 75%;
+        line-height: 1.5rem;
+        height: 7rem;
+    
     }
 }
+
+@media (max-width: 919px) {
+    footer {
+        font-size: 50%;
+    }
+
+    .btn-plataform {
+        height: 14rem;
+        width: 14rem;
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .btn-plataform:first-child {
+        margin-right: 10rem;
+    }
+}
+
+@media (max-width:824px){
+    .text-content2 p {
+        font-size: 1.2rem;
+        margin-top: -20rem;
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width:768px) {
+  
+    .top {
+        margin-top: -6rem !important;
+    }
+
+    footer {
+        display: grid;
+    }
+    .info-text {
+        font-size: 50%;
+    }
+
+    .menu a {
+        font-size: 75%;
+    }
+
+    .text-content2 {
+        margin-top: -20rem;
+    }
+
+}
+
+@media (max-width:700px) {
+
+    .top {
+        background-size: 100%;
+        height: 75vh;
+    }
+    .title {
+        padding-top: 5rem;
+        font-size: 1.5rem !important;
+        line-height: 3.5rem !important;
+    }
+}
+
