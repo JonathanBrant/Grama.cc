@@ -448,8 +448,7 @@ footer {
 @media (max-width:824px){
     .text-content2 p {
         font-size: 1.2rem;
-        margin-top: -20rem;
-        margin-left: 10rem;
+        margin-left: 0px;
     }
 }
 
@@ -487,5 +486,65 @@ footer {
         font-size: 1.5rem !important;
         line-height: 3.5rem !important;
     }
+    .text-content2 p {
+        font-size: 1rem !important;
+        margin-top: -25rem !important;
+        margin-left: 2rem !important;
+    }
+    .description .p1, .p2, .p3 {
+        padding: 0px;
+    }
+    .description {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5%;
+    }
+    .image2 img {
+        width: 95%;
+    }
+    .text-content2 {
+        margin-top: -20rem;
+    }
+    .text-content2 .text {
+        width: 80%;
+        display: block;
+        font-size: 0.8rem !important;
+        margin-top: -18rem !important;
+    }
+    .image3 {
+        margin-right: 0.8rem;
+    }
+    .content img {
+        width: 30%;
+    }
+    .text-content3 p {
+        padding: 0 5%;
+        font-size: 0.8rem;
+    }
+    .btn-plataform:first-child {
+        margin-right: 0;
+    }
+    footer {
+        padding: 0 5%;
+    }
+    .description {
+        margin-bottom: 10%;
+    }
+    .description .p1 {
+        width: 40%;
+    }
+    .description .p2 {
+        width: 40%;
+    }
 }
 
+@media (max-width:400px) {
+    .description {
+        margin-bottom: 20%;
+    }
+    .text-content2 .text {
+        line-height: 1.2rem;
+        margin-top: -15rem !important;
+    }
+}
